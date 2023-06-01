@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+
+    --light-purple: rgb(132, 8, 136);
+    --dark-blue: rgb(25, 6, 59);
+    --white-grey: rgb(250, 250, 250);
+    --dark-world: rgb(00, 00, 00);
+
+}
+
+*, 
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--white-grey);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-world);
+    width: 1400px;
+    height: 600px;
+    justify-content: center;
+}
+.innerbody {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-blue);
+    height: 445px;
+    border-radius: 10px;
+    margin: 80px;
+    justify-content: center;
+}
+.innerbody .left {
+    margin: 45px 30px 0 60px;
+    width: 400px;
+}
+.left h1 {
+    color: var(--white-grey);
+}
+.left span {
+    color: blueviolet;
+}
+.left p {
+    margin: 30px 0 30px 0;
+    color: var(--white-grey);
+}
+
+.collections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 40px 0 0;
+}
+.collections h2 {
+    color: var(--white-grey);
+}
+.collections span {
+    color: var(--white-grey);
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+  
